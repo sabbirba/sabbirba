@@ -3,7 +3,7 @@ const path = require("path");
 const { withSentryConfig } = require("@sentry/nextjs");
 
 const nextConfig = {
-  output: 'export', 
+  // output: 'export',
   reactStrictMode: true,
   swcMinify: true,
   images: {
