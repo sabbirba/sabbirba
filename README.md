@@ -68,11 +68,6 @@ I love building modern web applications, exploring new technologies, and sharing
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Sabbirba10&show_icons=true&theme=radical" alt="Sabbir's GitHub stats"/>
 </p>
-
----
-
-## <p align="center">🔥 Contribution Graph</p>
-
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sabbirba10&theme=react-dark&area=true&hide_border=true" alt="Contribution Graph"/>
 </p>
