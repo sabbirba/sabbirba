@@ -25,7 +25,7 @@ This is the personal portfolio website of Sabbir Bin Abbas, a proficient Softwar
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/sabbirba10/portfolio-sabbirba10.git
+   git clone https://github.com/Sabbirba10/portfolio-sabbirba10.git
    cd portfolio-sabbirba10
    ```
 
