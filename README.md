@@ -8,19 +8,19 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sabbirba10" rel="nofollow" target="_blank">
+  <a href="https://github.com/Sabbirba10">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-  <a href="https://linkedin.com/in/sabbirba10" rel="nofollow" target="_blank">
+  <a href="https://linkedin.com/in/sabbirba10">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://t.me/sabbirba10" rel="nofollow" target="_blank">
+  <a href="https://t.me/sabbirba10">
     <img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
-  <a href="https://instagram.com/sabbir_bin_abbas" rel="nofollow" target="_blank">
+  <a href="https://instagram.com/sabbir_bin_abbas">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-  <a href="mailto:sabbirba10@gmail.com" rel="nofollow" target="_blank">
+  <a href="mailto:sabbirba10@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
@@ -64,6 +64,14 @@ I love building modern web applications, exploring new technologies, and sharing
 
 ---
 
+## <p align="center">🧑‍💻 Visitor Count</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Sabbirba10&style=for-the-badge&color=6e40c9&label=Profile+Views" alt="Profile Views"/>
+</p>
+
+---
+
 ## <p align="center">📫 Get in Touch</p>
 
 <p align="center">
@@ -71,16 +79,16 @@ I love building modern web applications, exploring new technologies, and sharing
 </p>
 
 <p align="center">
-  <a href="mailto:sabbirba10@gmail.com" rel="nofollow" target="_blank">
+  <a href="mailto:sabbirba10@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://linkedin.com/in/sabbirba10" rel="nofollow" target="_blank">
+  <a href="https://linkedin.com/in/sabbirba10">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://t.me/sabbirba10" rel="nofollow" target="_blank">
+  <a href="https://t.me/sabbirba10">
     <img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
-  <a href="https://twitter.com/sabbirba10" rel="nofollow" target="_blank">
+  <a href="https://twitter.com/sabbirba10">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
 </p>
