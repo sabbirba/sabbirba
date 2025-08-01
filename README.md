@@ -79,20 +79,6 @@ I love building modern web applications, exploring new technologies, and sharing
 
 ---
 
-## <p align="center">💡 Fun Fact</p>
-
-<p align="center">
-  <!-- Animated background using a GIF for visual effect -->
-  <img src="https://www.transparenttextures.com/patterns/diamond-upholstery.png" width="0" height="0" style="display:none;">
-  <div style="background: url('https://i.imgur.com/8Km9tLL.gif') center/cover repeat; padding: 32px 0; border-radius: 18px; display: inline-block; width: 100%;">
-    <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=transparent&textColor=%23007bff&answerColor=%2300b894" alt="Jokes Card" width="700"/>
-    <br/>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=7000&color=FF8C00&center=true&vCenter=true&width=700&lines=Did+you+smile+today%3F+%F0%9F%98%8A;Keep+coding+and+stay+awesome!+%F0%9F%92%BB" alt="Fun Fact Animation" />
-  </div>
-</p>
-
----
-
 ## <p align="center">👀 Profile Views</p>
 
 <p align="center">
