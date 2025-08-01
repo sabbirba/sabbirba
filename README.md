@@ -71,10 +71,34 @@ I love building modern web applications, exploring new technologies, and sharing
 
 ---
 
-## <p align="center">🧑‍💻 Visitor Count</p>
+## <p align="center">🏆 GitHub Trophies</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sabbirba10&style=for-the-badge&color=6e40c9&label=Profile+Views" alt="Profile Views"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Sabbirba10&theme=radical&no-frame=true&margin-w=10&column=7" alt="GitHub Trophies"/>
+</p>
+
+---
+
+## <p align="center">🔥 Contribution Graph</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sabbirba10&theme=react-dark&area=true&hide_border=true" alt="Contribution Graph"/>
+</p>
+
+---
+
+## <p align="center">🎵 Now Playing</p>
+
+<p align="center">
+  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31q5k2y2w6x7q3g4w3v5u2k6z6qk&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true" alt="Spotify Now Playing"/>
+</p>
+
+---
+
+## <p align="center">💡 Fun Fact</p>
+
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%236e40c9&textColor=%23fff" alt="Jokes Card" />
 </p>
 
 ---
