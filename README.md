@@ -90,9 +90,9 @@ I love building modern web applications, exploring new technologies, and sharing
 ## <p align="center">💡 Fun Fact</p>
 
 <p align="center" style="background: linear-gradient(90deg, #ff8c00aa 0%, #ffffff00 100%); padding: 24px 0; border-radius: 18px;">
-  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=transparent&textColor=%23000000" alt="Jokes Card" width="600"/>
+  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=transparent&textColor=%23000000" alt="Jokes Card" width="700"/>
   <br/>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=FF8C00&center=true&vCenter=true&width=600&lines=Did+you+smile+today%3F+%F0%9F%98%8A;Keep+coding+and+stay+awesome!+%F0%9F%92%BB" alt="Fun Fact Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=38&pause=1000&color=FF8C00&center=true&vCenter=true&width=700&lines=Did+you+smile+today%3F+%F0%9F%98%8A;Keep+coding+and+stay+awesome!+%F0%9F%92%BB" alt="Fun Fact Animation" />
 </p>
 
 ---
