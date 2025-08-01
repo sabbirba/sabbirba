@@ -4,7 +4,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,100:ff8c00&height=200&section=header&text=Sabbir%20Bin%20Abbas&fontSize=45&fontAlign=50&fontAlignY=40&desc=Full%20Stack%20Developer%20%7C%20Open%20Source%20Enthusiast&descAlign=50&descAlignY=65&animation=twinkling" alt="banner"/>
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Hi+there!+Welcome+to+my+GitHub+profile.;Full+Stack+Developer+from+Bangladesh.;Community+Enthusiast+%7C+Lifelong+Learner+%7C+Open+Source" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Hi+there!+Welcome+to+my+GitHub+profile.;Full+Stack+Developer+from+Bangladesh.;Community+Enthusiast+%7C+Lifelong+Learner" alt="Typing SVG" />
 </p>
 
 <p align="center">
