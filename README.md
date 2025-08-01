@@ -90,7 +90,7 @@ I love building modern web applications, exploring new technologies, and sharing
 ## <p align="center">🎵 Now Playing</p>
 
 <p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31q5k2y2w6x7q3g4w3v5u2k6z6qk&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true" alt="Spotify Now Playing"/>
+  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31ckenxejwodyczs252bt6sr4vky&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true" alt="Spotify Now Playing"/>
 </p>
 
 ---
