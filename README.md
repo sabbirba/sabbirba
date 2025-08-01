@@ -90,6 +90,9 @@ I love building modern web applications, exploring new technologies, and sharing
   <a href="https://discord.com/channels/@sabbirba10">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
   </a>
+  <a href="https://www.youtube.com/@Sabbirba10?sub_confirmation=1">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
 </p>
 
 <p align="center">
