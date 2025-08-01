@@ -90,7 +90,10 @@ I love building modern web applications, exploring new technologies, and sharing
 ## <p align="center">🎵 Now Playing</p>
 
 <p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=31ckenxejwodyczs252bt6sr4vky&cover_image=true&theme=novatorem&show_offline=true&background_color=121212&interchange=true" alt="Spotify Now Playing"/>
+  <!-- If Spotify widget is not working, show a fallback animation or message -->
+  <img src="https://media.giphy.com/media/13ZHjidRzoi7n2/giphy.gif" alt="Now Playing Animation" width="300"/>
+  <br/>
+  <b>Spotify Now Playing is currently unavailable.</b>
 </p>
 
 ---
@@ -98,7 +101,9 @@ I love building modern web applications, exploring new technologies, and sharing
 ## <p align="center">💡 Fun Fact</p>
 
 <p align="center">
-  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%236e40c9&textColor=%23fff" alt="Jokes Card" />
+  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%23ff8c00&textColor=%23000000" alt="Jokes Card" />
+  <br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=FF8C00&center=true&vCenter=true&width=400&lines=Did+you+smile+today%3F+%F0%9F%98%8A;Keep+coding+and+stay+awesome!+%F0%9F%92%BB" alt="Fun Fact Animation" />
 </p>
 
 ---
