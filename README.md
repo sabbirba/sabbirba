@@ -93,7 +93,7 @@ I love building modern web applications, exploring new technologies, and sharing
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF8C00&center=true&vCenter=true&width=435&lines=I'ts+me;Sabbir+Bin+Abbas;@Sabbirba10;Happy+Coding+%F0%9F%92%BB" alt="Thanks for visiting!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=FF8C00&center=true&vCenter=true&width=435&lines=It's+me;Sabbir+Bin+Abbas;@Sabbirba10;Happy+Coding+%F0%9F%92%BB" alt="Thanks for visiting!" />
 </p>
 
 ---
