@@ -48,10 +48,10 @@ I love building modern web applications, exploring new technologies, and sharing
 ## <p align="center">📈 GitHub Stats</p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sabbirba10&theme=react-dark&area=true&hide_border=true" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sabbirba&theme=react-dark&area=true&hide_border=true" alt="Contribution Graph"/>
 </p>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sabbirba10&style=for-the-badge&color=6e40c9&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=Sabbirba&style=for-the-badge&color=6e40c9&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
 
 ---
