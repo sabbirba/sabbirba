@@ -1,7 +1,7 @@
 class Strings {
-  static telegram = "Telegram";
-  static telegramLink = "https://telegram.me/sabbirba10";
-  static telegramUsername = "sabbirba10";
+  static youtube = "Youtube";
+  static youtubeLink = "https://youtube.com/@Sabbirba10";
+  static youtubeUsername = "Sabbirba10";
 
   static github = "GitHub";
   static githubLink = "https://www.github.com/sabbirba10";
@@ -20,7 +20,7 @@ class Strings {
   static primaryEmail = "sabbirba10@gmail.com";
 
   static fullName = "Sabbir Bin Abbas";
-  static shortName = "sabbirba10";
+  static shortName = "sabbirba";
 }
 
 export default Strings;
