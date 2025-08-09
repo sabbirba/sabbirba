@@ -40,9 +40,9 @@ const services: IServiceItem[] = [
       "/skills/redis.svg",
       "/skills/sqlite.svg",
     ],
-    shortDescription: "I manage and optimize your database systems.",
+    shortDescription: "I manage and optimize database systems.",
     description:
-      "I manage and optimize database systems for performance, reliability, and scalability. With expertise in SQL and NoSQL databases, I design schemas, write complex queries, and implement best practices for data integrity and security. Ensure your data is managed effectively and efficiently.",
+      "I manage and optimize database systems for performance, reliability, and scalability. With expertise in SQL and NoSQL databases, I design schemas, write complex queries, and implement best practices for data integrity and security. Ensure data is managed effectively and efficiently.",
   },
   {
     id: 4,
