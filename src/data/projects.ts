@@ -23,7 +23,7 @@ const projects: IProjectItem[] = [
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/sabbirba/sabbirba",
     url: "https://sabbirba.pages.dev",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tags: ["React", "Next.js", "TypeScript"],
   },
   {
     id: "whatsapp-bulk",
