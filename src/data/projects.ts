@@ -11,7 +11,7 @@ const projects: IProjectItem[] = [
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/sabbirba/examflask",
     url: "https://bracuexam.web.app",
-    tags: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Flask"],
+    tags: ["JavaScript", "Tailwind CSS", "Flask"],
   },
   {
     id: "portfolio-website",
@@ -23,7 +23,7 @@ const projects: IProjectItem[] = [
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/sabbirba/sabbirba",
     url: "https://sabbirba.pages.dev",
-    tags: ["React","Next.js", "TypeScript", "Tailwind CSS"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
   },
   {
     id: "whatsapp-bulk",
