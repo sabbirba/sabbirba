@@ -5,7 +5,7 @@ const projects: IProjectItem[] = [
     id: "bracu-exam-web-app",
     title: "BRACU Exam Web App",
     description:
-      "A user-friendly web app to view, filter, and cross-check BRAC University exam routines (Mid-term and Final). You can also save offline clean screenshots as your lock screen or wallpaper.",
+      "A user-friendly web app to view, filter, and cross-check BRAC University exam schedules (Mid-term and Final). You can also save offline clean screenshots as your lock screen or wallpaper.",
     icon: "/skills/javascript.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
