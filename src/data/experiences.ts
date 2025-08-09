@@ -31,7 +31,7 @@ const experiences: IExperienceItem[] = [
   // },
   {
     designation: "Info-tech Affairs Secretary",
-    company: "Lamppost",
+    company: "Lamppost - light for rights..",
     startDate: "May 2018",
     isCurrentJob: true,
     location: "Pirganj, Thakurgaon",
