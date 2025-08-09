@@ -36,7 +36,7 @@ const experiences: IExperienceItem[] = [
     isCurrentJob: true,
     location: "Pirganj, Thakurgaon",
     description: [
-      "Developed and customized WordPress theme and plugins for diverse organizational needs.",
+      "Developed and customized WordPress themes and plugins for organizational needs.",
       "Optimized website performance, improving load times and SEO rankings.",
       "Integrated third-party APIs and payment gateways for donation solutions.",
       "Provided ongoing maintenance, security updates, and troubleshooting.",

@@ -12,9 +12,9 @@ const services: IServiceItem[] = [
       "/skills/ios.svg",
     ],
     shortDescription:
-      "I create engaging mobile applications for your audience.",
+      "I craft engaging and high-performance mobile applications.",
     description:
-      "I create captivating mobile apps from concept to deployment for iOS and Android. Using cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that align with your business goals. Enjoy a flawless user experience and outstanding results.",
+      "From concept to deployment, I develop captivating mobile apps for iOS and Android. Leveraging modern technologies, I ensure seamless performance, intuitive interfaces, and robust functionality tailored to your business goals. Delivering exceptional user experiences is my priority.",
   },
   {
     id: 2,
@@ -26,9 +26,9 @@ const services: IServiceItem[] = [
       "/skills/javascript.svg",
       "/skills/typescript.svg",
     ],
-    shortDescription: "I build visually stunning and user-friendly websites.",
+    shortDescription: "I create responsive and visually stunning websites.",
     description:
-      "I deliver stunning, user-friendly websites to establish your online presence. From simple sites to complex e-commerce platforms, I provide tailored solutions using the latest frameworks and technologies for a seamless, responsive, and SEO-friendly browsing experience. Enhance your online identity with quality.",
+      "I design and develop user-friendly websites that enhance your online presence. From simple landing pages to complex e-commerce platforms, I use the latest frameworks and technologies to deliver responsive, SEO-optimized, and visually appealing solutions tailored to your needs.",
   },
   {
     id: 3,
@@ -40,9 +40,9 @@ const services: IServiceItem[] = [
       "/skills/redis.svg",
       "/skills/sqlite.svg",
     ],
-    shortDescription: "I manage and optimize database systems.",
+    shortDescription: "I optimize and manage reliable database systems.",
     description:
-      "I manage and optimize database systems for performance, reliability, and scalability. With expertise in SQL and NoSQL databases, I design schemas, write complex queries, and implement best practices for data integrity and security. Ensure data is managed effectively and efficiently.",
+      "I specialize in designing, managing, and optimizing database systems for performance and scalability. With expertise in SQL and NoSQL databases, I ensure data integrity, security, and efficiency, enabling your applications to handle data seamlessly and reliably.",
   },
   {
     id: 4,
@@ -55,9 +55,9 @@ const services: IServiceItem[] = [
       "/skills/ubuntu.svg",
     ],
     shortDescription:
-      "I define goals, target audiences, and roadmap for success.",
+      "I strategize to align products with business goals and user needs.",
     description:
-      "I collaborate to define clear goals, target audiences, and a success roadmap. My expertise in product ideation and market analysis ensures your product meets user needs and aligns with your business strategy for long-term growth and full potential realization. Drive your product's success with strategic planning.",
+      "I collaborate to define clear goals, target audiences, and actionable roadmaps for product success. With expertise in product ideation, market analysis, and strategic planning, I help you unlock your product's full potential and drive long-term growth.",
   },
 ];
 

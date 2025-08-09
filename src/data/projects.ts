@@ -5,7 +5,7 @@ const projects: IProjectItem[] = [
     id: "bracu-exam-web-app",
     title: "BRACU Exam Web App",
     description:
-      "A user-friendly web app to view, filter, and cross-check BRAC University exam schedules (Mid-term and Final). It allows students to easily access their exam information and manage their schedules effectively.",
+      "A web app designed for BRAC University students to view, filter, and cross-check exam schedules. It simplifies access to Mid-term and Final exam information, helping students manage their schedules efficiently.",
     icon: "/skills/javascript.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
@@ -17,7 +17,7 @@ const projects: IProjectItem[] = [
     id: "portfolio-website",
     title: "Portfolio Website",
     description:
-      "A personal portfolio website of Sabbir Bin Abbas, a proficient Software Engineer and Full Stack Developer from Bangladesh. This website showcases my skills, projects, and experiences.",
+      "A personal portfolio website showcasing the skills, projects, and experiences of Sabbir Bin Abbas, a Software Engineer and Full Stack Developer. Built to highlight expertise and achievements.",
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
@@ -29,12 +29,13 @@ const projects: IProjectItem[] = [
     id: "whatsapp-bulk",
     title: "WhatsApp Bulk Messaging",
     description:
-      "A small application that allows you to send dynamic WhatsApp messages to multiple recipients at once which helps automate the process of sending messages to a list of contacts.",
+      "An application for sending dynamic WhatsApp messages to multiple recipients simultaneously. It automates the messaging process, making it efficient for managing large contact lists.",
     icon: "/skills/nodejs.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/sabbirba/wabulk",
-    tags: ["Node.js", "Javascript", "whatsapp-web.js"],
+    tags: ["Node.js", "JavaScript", "whatsapp-web.js"],
   },
 ];
+
 export default projects;
