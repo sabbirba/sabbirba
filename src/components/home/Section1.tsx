@@ -9,6 +9,8 @@ import socialLinks from "@/data/socialLinks";
 import TalkButton from "./ui/TalkButton";
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
+  const resumeLink = process.env.NEXT_PUBLIC_RESUME_LINK;
+
   return (
     <ResponsiveBox
       classNames="dark:bg-[var(--bgColor)] bg-[var(--bgColor)] dark:bg-grid-white/[0.1] bg-grid-white/[0.1] min-h-screen items-center justify-center relative overflow-hidden rounded-md"
@@ -33,7 +35,6 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
             <TalkButton />
           </div>
         </Column>
-
         <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">
           <p className="text-base/6 font-medium">Follow me here</p>
 
