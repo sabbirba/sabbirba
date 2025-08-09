@@ -5,7 +5,7 @@ const projects: IProjectItem[] = [
     id: "bracu-exam-web-app",
     title: "BRACU Exam Web App",
     description:
-      "A user-friendly web app to view, filter, and cross-check BRAC University exam schedules (Mid-term and Final). You can also save offline clean screenshots as your lock screen or wallpaper.",
+      "A user-friendly web app to view, filter, and cross-check BRAC University exam schedules (Mid-term and Final). It allows students to easily access their exam information and manage their schedules effectively.",
     icon: "/skills/javascript.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
@@ -17,7 +17,7 @@ const projects: IProjectItem[] = [
     id: "portfolio-website",
     title: "Portfolio Website",
     description:
-      "A personal portfolio website of Sabbir Bin Abbas, a proficient Software Engineer and Full Stack Developer from Bangladesh. The site showcases skills, services, experiences, projects, and contact information.",
+      "A personal portfolio website of Sabbir Bin Abbas, a proficient Software Engineer and Full Stack Developer from Bangladesh. This website showcases my skills, projects, and experiences.",
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
@@ -29,7 +29,7 @@ const projects: IProjectItem[] = [
     id: "whatsapp-bulk",
     title: "WhatsApp Bulk Messaging",
     description:
-      "WABulk is a Node.js application that allows you to send personalized WhatsApp messages to multiple recipients at once using whatsapp-web.js. This tool helps automate the process of sending dynamic messages to a list of contacts, saving you time and effort.",
+      "A small application that allows you to send dynamic WhatsApp messages to multiple recipients at once which helps automate the process of sending messages to a list of contacts.",
     icon: "/skills/nodejs.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,

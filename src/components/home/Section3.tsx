@@ -12,6 +12,7 @@ const HomeSection3 = ({ id }: { id: string }) => {
       id={id}
     >
       <ConstrainedBox classNames="p-4 py-16">
+        <div className="mb-8" />
         <SectionTitle>Experiences</SectionTitle>
 
         <Timeline
