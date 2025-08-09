@@ -5,6 +5,7 @@ import Column from "@/components/core/Column";
 import SectionTitle from "@/components/common/SectionTitle";
 import SocialButton from "./ui/SocialButton";
 import socialLinks from "@/data/socialLinks";
+import TalkButton from "./ui/TalkButton";
 
 const HomeSection6 = ({ id }: { id: string }) => {
   return (
@@ -34,6 +35,9 @@ const HomeSection6 = ({ id }: { id: string }) => {
             <span className="text-[var(--primaryColor)]">available</span> for
             freelancing.
           </p>
+            <div className="flex items-center justify-center mt-8 w-full">
+              <TalkButton />
+            </div>
         </Column>
       </ConstrainedBox>
     </ResponsiveBox>
