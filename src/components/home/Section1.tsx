@@ -28,9 +28,12 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
-          <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
-            Full Stack Developer
-          </p>
+            <p className="text-xl font-semibold mt-4 dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
+            Passionate Full Stack Developer
+            </p>
+            <p className="text-sm/normal md:text-base/normal mt-2 dark:text-[var(--textColorLight)] text-[var(--textColorLight)] text-center max-w-2xl">
+            I love building modern web applications, exploring new technologies, and sharing knowledge with the community.
+            </p>
             <div className="mt-12 lg:mt-16 flex flex-col md:flex-row gap-4 items-center justify-center">
             <ResumeButton />
             <TalkButton />

@@ -11,6 +11,7 @@ const HomeSection2 = ({ id }: { id: string }) => {
       id={id}
     >
       <ConstrainedBox classNames="p-4 py-16 z-20">
+        <div className="mt-6" />
         <SectionTitle>Services</SectionTitle>
         <HoverLayoutGrid cards={services} />
       </ConstrainedBox>
