@@ -27,7 +27,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
-            <p className="text-l font-semibold mt-4 dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
+            <p className="text-xl font-bold font-bold mt-4 dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
             Passionate Full Stack Developer
             </p>
             <p className="text-sm/normal md:text-base/normal mt-2 dark:text-[var(--textColorLight)] text-[var(--textColorLight)] text-center max-w-2xl">
