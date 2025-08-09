@@ -4,7 +4,7 @@ import Strings from "@/constants/strings";
 const TalkButton = () => {
   return (
     <Link
-      className="app__filled_btn min-w-[10rem]"
+      className="app__outlined_btn min-w-[9rem]" //app__filled_btn
       href={Strings.primaryEmailLink}
       target="_blank"
     >

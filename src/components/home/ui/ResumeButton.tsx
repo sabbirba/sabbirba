@@ -4,11 +4,11 @@ import Link from "next/link";
 const ResumeButton = () => {
   return (
     <Link
-      className="app__outlined_btn min-w-[10rem]"
-      href={LocalConfig.values.NEXT_PUBLIC_RESUME_LINK}
+      className="app__outlined_btn min-w-[4rem]"
+      href="https://bracuexam.lamppost.org.bd/resume.pdf"
       target="_blank"
     >
-      Download Resume
+      Resume
     </Link>
   );
 };

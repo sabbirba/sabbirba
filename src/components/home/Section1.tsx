@@ -7,6 +7,7 @@ import Row from "@/components/core/Row";
 import { FlipWords } from "@/components/common/FlipWords";
 import socialLinks from "@/data/socialLinks";
 import TalkButton from "./ui/TalkButton";
+import ResumeButton from "./ui/ResumeButton";
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
   const resumeLink = process.env.NEXT_PUBLIC_RESUME_LINK;
@@ -30,10 +31,10 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
             Full Stack Developer
           </p>
-
-          <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
+            <div className="mt-12 lg:mt-16 flex flex-col md:flex-row gap-4 items-center justify-center">
+            <ResumeButton />
             <TalkButton />
-          </div>
+            </div>
         </Column>
         <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">
           <p className="text-base/6 font-medium">Follow me here</p>
