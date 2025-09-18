@@ -1,7 +1,7 @@
 class Strings {
   static youtube = "Youtube";
   static youtubeLink = "https://www.youtube.com/@Sabbirba10?sub_confirmation=1";
-  static youtubeUsername = "Sabbirba10";
+  static youtubeUsername = "Sabbir Bin Abbas";
   static github = "GitHub";
   static githubLink = "https://www.github.com/sabbirba";
   static githubUsername = "sabbirba";

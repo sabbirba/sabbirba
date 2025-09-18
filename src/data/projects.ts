@@ -49,7 +49,7 @@ const projects: IProjectItem[] = [
     id: "freelabs",
     title: "FreeLabs",
     description:
-      "A platform for hosting and sharing free and open-source software projects.",
+      "Saving you from wandering around campus in search of a spot to study (or, let’s be real, to game).",
     icon: "/skills/javascript.svg",
     repoType: RepoType.Private,
     projectType: ProjectType.Personal,
