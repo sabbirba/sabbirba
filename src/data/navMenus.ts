@@ -7,7 +7,6 @@ import {
   faFileCode,
   faEnvelopeOpen,
 } from "@fortawesome/free-regular-svg-icons";
-
 export const navMenus: INavItem[] = [
   {
     name: "About",

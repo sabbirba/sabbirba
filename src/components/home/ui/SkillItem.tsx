@@ -3,7 +3,6 @@ import Image from "next/image";
 import CardBox from "@/components/core/CardBox";
 import Row from "@/components/core/Row";
 import Column from "@/components/core/Column";
-
 const SkillItem = ({ data }: { data: ISkillListItem }) => {
   return (
     <CardBox classNames="p-4 items-center justify-start rounded-[var(--borderRadius)] border border-[rgba(255,255,255,0.10)] dark:bg-[var(--primaryColor5)] bg-[var(--primaryColor5)] shadow-[2px_4px_16px_0px_rgba(100,100,100,0.06)_inset] w-full group">
@@ -40,5 +39,4 @@ const SkillItem = ({ data }: { data: ISkillListItem }) => {
     </CardBox>
   );
 };
-
 export default SkillItem;

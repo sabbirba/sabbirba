@@ -7,10 +7,11 @@ import Row from "@/components/core/Row";
 import { FlipWords } from "@/components/common/FlipWords";
 import socialLinks from "@/data/socialLinks";
 import ResumeButton from "./ui/ResumeButton";
-
-const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
-  const resumeLink = process.env.NEXT_PUBLIC_RESUME_LINK;
-
+const HomeSection1 = ({
+  id,
+}: Readonly<{
+  id: string;
+}>) => {
   return (
     <ResponsiveBox
       classNames="dark:bg-[var(--bgColor)] bg-[var(--bgColor)] dark:bg-grid-white/[0.1] bg-grid-white/[0.1] min-h-screen items-center justify-center relative overflow-hidden rounded-md"
@@ -27,15 +28,16 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
-            <p className="text-xl font-bold font-bold mt-4 dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
+          <p className="text-xl font-bold font-bold mt-4 dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
             Passionate Full Stack Developer
-            </p>
-            <p className="text-sm/normal md:text-base/normal mt-2 dark:text-[var(--textColorLight)] text-[var(--textColorLight)] text-center max-w-2xl">
-            I love building modern web applications, exploring new technologies, and sharing knowledge with the community.
-            </p>
-            <div className="mt-12 lg:mt-16 flex flex-col md:flex-row gap-4 items-center justify-center">
+          </p>
+          <p className="text-sm/normal md:text-base/normal mt-2 dark:text-[var(--textColorLight)] text-[var(--textColorLight)] text-center max-w-2xl">
+            I love building modern web applications, exploring new technologies,
+            and sharing knowledge with the community.
+          </p>
+          <div className="mt-12 lg:mt-16 flex flex-col md:flex-row gap-4 items-center justify-center">
             <ResumeButton />
-            </div>
+          </div>
         </Column>
         <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">
           <p className="text-base/6 font-medium">Follow me here</p>
@@ -64,5 +66,4 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
     </ResponsiveBox>
   );
 };
-
 export default HomeSection1;

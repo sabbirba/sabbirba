@@ -1,5 +1,4 @@
 import { IProjectItem, ProjectType, RepoType } from "@/types";
-
 const projects: IProjectItem[] = [
   {
     id: "bracu-exam-web-app",
@@ -37,5 +36,4 @@ const projects: IProjectItem[] = [
     tags: ["Node.js", "JavaScript", "whatsapp-web.js"],
   },
 ];
-
 export default projects;

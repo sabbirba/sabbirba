@@ -4,7 +4,6 @@ import GridBox from "@/components/core/GridBox";
 import SectionTitle from "@/components/common/SectionTitle";
 import SkillItem from "./ui/SkillItem";
 import skills from "@/data/skills";
-
 const HomeSection4 = ({ id }: { id: string }) => {
   return (
     <ResponsiveBox
@@ -23,5 +22,4 @@ const HomeSection4 = ({ id }: { id: string }) => {
     </ResponsiveBox>
   );
 };
-
 export default HomeSection4;

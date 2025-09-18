@@ -4,7 +4,6 @@ import SectionTitle from "@/components/common/SectionTitle";
 import { Timeline } from "@/components/common/timeline";
 import ExperienceItem from "./ui/ExperienceItem";
 import experiences from "@/data/experiences";
-
 const HomeSection3 = ({ id }: { id: string }) => {
   return (
     <ResponsiveBox
@@ -25,5 +24,4 @@ const HomeSection3 = ({ id }: { id: string }) => {
     </ResponsiveBox>
   );
 };
-
 export default HomeSection3;

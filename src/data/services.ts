@@ -1,5 +1,4 @@
 import { IServiceItem } from "@/types";
-
 const services: IServiceItem[] = [
   {
     id: 1,
@@ -60,5 +59,4 @@ const services: IServiceItem[] = [
       "I collaborate to define clear goals, target audiences, and actionable roadmaps for product success. With expertise in product ideation, market analysis, and strategic planning, I help you unlock your product's full potential and drive long-term growth.",
   },
 ];
-
 export default services;

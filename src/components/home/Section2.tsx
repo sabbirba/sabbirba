@@ -3,7 +3,6 @@ import ResponsiveBox from "@/components/core/ResponsiveBox";
 import SectionTitle from "@/components/common/SectionTitle";
 import { HoverLayoutGrid } from "@/components/common/HoverLayoutGrid";
 import services from "@/data/services";
-
 const HomeSection2 = ({ id }: { id: string }) => {
   return (
     <ResponsiveBox
@@ -18,5 +17,4 @@ const HomeSection2 = ({ id }: { id: string }) => {
     </ResponsiveBox>
   );
 };
-
 export default HomeSection2;

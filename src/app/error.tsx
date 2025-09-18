@@ -2,19 +2,18 @@
 
 import * as Sentry from "@sentry/nextjs";
 import { useEffect } from "react";
-
 const Error = ({
   error,
   reset,
 }: {
-  error: Error & { digest?: string };
+  error: Error & {
+    digest?: string;
+  };
   reset: () => void;
 }) => {
   useEffect(() => {
-    // Log the error to Sentry
     Sentry.captureException(error);
   }, [error]);
-
   return (
     <div
       className={`relative flex flex-col justify-center items-center w-screen max-w-full min-h-screen p-4 m-0 overflow-hidden transition duration-300 ease-in-out`}
@@ -39,5 +38,4 @@ const Error = ({
     </div>
   );
 };
-
 export default Error;

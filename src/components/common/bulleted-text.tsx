@@ -1,6 +1,5 @@
 import { BulletedTextProps } from "@/types";
 import { cn } from "@/utils/cn";
-
 const BulletedText = ({
   children,
   iconSize,
@@ -11,7 +10,7 @@ const BulletedText = ({
     <div
       className={cn(
         "relative w-full flex flex-row flex-wrap items-start justify-start pl-6 break-words transition duration-500 ease-in-out",
-        classNames
+        classNames,
       )}
     >
       <span
@@ -27,5 +26,4 @@ const BulletedText = ({
     </div>
   );
 };
-
 export default BulletedText;

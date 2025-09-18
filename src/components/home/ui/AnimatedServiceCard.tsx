@@ -1,14 +1,14 @@
 "use client";
 
-import { animate, motion } from "framer-motion";
-import { useEffect } from "react";
+import { motion } from "framer-motion";
 import { cn } from "@/utils/cn";
 import { IServiceItem } from "@/types";
 import Image from "next/image";
-
 export function AnimatedServiceCard({
   item,
-}: Readonly<{ item: IServiceItem }>) {
+}: Readonly<{
+  item: IServiceItem;
+}>) {
   return (
     <Card className="z-20">
       <CardSkeletonContainer>
@@ -19,60 +19,11 @@ export function AnimatedServiceCard({
     </Card>
   );
 }
-
-const IconSkeleton = ({ item }: Readonly<{ item: IServiceItem }>) => {
-  const scale = [1, 1.1, 1];
-  const transform = ["translateY(0px)", "translateY(-4px)", "translateY(0px)"];
-  const sequence = [
-    [
-      ".circle-1",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-    [
-      ".circle-2",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-    [
-      ".circle-3",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-    [
-      ".circle-4",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-    [
-      ".circle-5",
-      {
-        scale,
-        transform,
-      },
-      { duration: 0.8 },
-    ],
-  ];
-
-  // useEffect(() => {
-  //   animate(sequence, {
-  //     repeat: Infinity,
-  //     repeatDelay: 1,
-  //   });
-  // }, []);
-
+const IconSkeleton = ({
+  item,
+}: Readonly<{
+  item: IServiceItem;
+}>) => {
   return (
     <div className="overflow-hidden h-full relative flex items-center justify-center">
       <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
@@ -151,7 +102,6 @@ const IconSkeleton = ({ item }: Readonly<{ item: IServiceItem }>) => {
     </div>
   );
 };
-
 const Sparkles = () => {
   const randomMove = () => Math.random() * 2 - 1;
   const randomOpacity = () => Math.random();
@@ -187,7 +137,6 @@ const Sparkles = () => {
     </div>
   );
 };
-
 export const Card = ({
   className,
   children,
@@ -199,7 +148,7 @@ export const Card = ({
     <div
       className={cn(
         "relative w-full h-full mx-auto overflow-hidden rounded-[var(--borderRadius)] border border-[rgba(255,255,255,0.10)] dark:bg-[var(--primaryColor5)] bg-[var(--primaryColor5)] shadow-[2px_4px_16px_0px_rgba(100,100,100,0.06)_inset] group",
-        className
+        className,
       )}
     >
       <div className="relative z-50">
@@ -208,7 +157,6 @@ export const Card = ({
     </div>
   );
 };
-
 export const CardTitle = ({
   children,
   className,
@@ -220,14 +168,13 @@ export const CardTitle = ({
     <h3
       className={cn(
         "text-lg lg:text-xl xl:text-2xl font-semibold text-[var(--primaryColor)] dark:text-[var(--primaryColor)] py-2 tracking-wide",
-        className
+        className,
       )}
     >
       {children}
     </h3>
   );
 };
-
 export const CardDescription = ({
   children,
   className,
@@ -239,14 +186,13 @@ export const CardDescription = ({
     <p
       className={cn(
         "text-sm/6 lg:text-base/6 font-normal tracking-wide",
-        className
+        className,
       )}
     >
       {children}
     </p>
   );
 };
-
 export const CardSkeletonContainer = ({
   className,
   children,
@@ -262,14 +208,13 @@ export const CardSkeletonContainer = ({
         "rounded-[var(--borderRadius)] z-40 mb-4",
         className,
         showGradient &&
-          "bg-bg-[rgba(40,40,40,0.70)] dark:bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]"
+          "bg-bg-[rgba(40,40,40,0.70)] dark:bg-[rgba(40,40,40,0.70)] [mask-image:radial-gradient(50%_50%_at_50%_50%,white_0%,transparent_100%)]",
       )}
     >
       {children}
     </div>
   );
 };
-
 const IconContainer = ({
   className,
   children,
@@ -283,7 +228,7 @@ const IconContainer = ({
         `h-16 w-16 rounded-full flex items-center justify-center bg-[rgba(248,248,248,0.01)]
     shadow-[0px_0px_8px_0px_rgba(248,248,248,0.25)_inset,0px_32px_24px_-16px_rgba(0,0,0,0.40)]
     `,
-        className
+        className,
       )}
     >
       {children}

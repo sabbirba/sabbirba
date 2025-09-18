@@ -3,13 +3,16 @@
 import type { MouseEvent } from "react";
 import type { CoreComponentsProps } from "@/types";
 import { motion, useMotionTemplate, useSpring } from "framer-motion";
-
 const CardBox = (props: Readonly<CoreComponentsProps>) => {
   const { children, classNames, onClick, id, elementRef } = props;
-
-  const mouseX = useSpring(0, { stiffness: 500, damping: 100 });
-  const mouseY = useSpring(0, { stiffness: 500, damping: 100 });
-
+  const mouseX = useSpring(0, {
+    stiffness: 500,
+    damping: 100,
+  });
+  const mouseY = useSpring(0, {
+    stiffness: 500,
+    damping: 100,
+  });
   function onMouseMove(e: MouseEvent<HTMLDivElement>) {
     if (!e.currentTarget) return;
     const { left, top } = e.currentTarget.getBoundingClientRect();
@@ -17,8 +20,10 @@ const CardBox = (props: Readonly<CoreComponentsProps>) => {
     mouseY.set(e.clientY - top);
   }
   let maskImage = useMotionTemplate`radial-gradient(240px at ${mouseX}px ${mouseY}px, white, transparent)`;
-  let style = { maskImage, WebkitMaskImage: maskImage };
-
+  let style = {
+    maskImage,
+    WebkitMaskImage: maskImage,
+  };
   return (
     <div
       id={id}
@@ -42,5 +47,4 @@ const CardBox = (props: Readonly<CoreComponentsProps>) => {
     </div>
   );
 };
-
 export default CardBox;

@@ -1,7 +1,6 @@
 import type { IExperienceItem } from "@/types";
 import Column from "@/components/core/Column";
 import BulletedText from "@/components/common/bulleted-text";
-
 const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
   return (
     <Column classNames="justify-between w-full h-full gap-2">
@@ -25,5 +24,4 @@ const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
     </Column>
   );
 };
-
 export default ExperienceItem;

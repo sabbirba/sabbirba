@@ -4,7 +4,6 @@ import { ReactNode } from "react";
 import { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { navMenus } from "@/data/navMenus";
-
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
@@ -23,7 +22,6 @@ const poppins = Poppins({
     "Droid Sans",
   ],
 });
-
 export const metadata: Metadata = {
   title: "Sabbir Bin Abbas",
   description:
@@ -78,22 +76,25 @@ export const metadata: Metadata = {
     "sabbirba github",
   ],
 };
-
 const GoogleAnalytics = dynamic(
   () => import("@/components/common/GoogleAnalytics"),
-  { ssr: false }
+  {
+    ssr: false,
+  },
 );
 const WebVitals = dynamic(() => import("@/components/common/WebVitals"), {
   ssr: false,
 });
 const FloatingNavbar = dynamic(
-  () => import("@/components/navbar/FloatingNavbar")
+  () => import("@/components/navbar/FloatingNavbar"),
 );
 const ScrollToTop = dynamic(() => import("@/components/common/ScrollToTop"));
-
 const isDebug = process.env.NODE_ENV === "development";
-
-const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
+const RootLayout = ({
+  children,
+}: Readonly<{
+  children: ReactNode;
+}>) => {
   return (
     <html lang="en" className={poppins.className}>
       {isDebug ? null : <GoogleAnalytics />}
@@ -107,5 +108,4 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
     </html>
   );
 };
-
 export default RootLayout;

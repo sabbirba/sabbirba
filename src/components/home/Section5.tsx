@@ -3,7 +3,6 @@ import ResponsiveBox from "@/components/core/ResponsiveBox";
 import SectionTitle from "@/components/common/SectionTitle";
 import ProjectList from "./ui/ProjectList";
 import projects from "@/data/projects";
-
 const HomeSection5 = ({ id }: { id: string }) => {
   return (
     <ResponsiveBox
@@ -18,5 +17,4 @@ const HomeSection5 = ({ id }: { id: string }) => {
     </ResponsiveBox>
   );
 };
-
 export default HomeSection5;

@@ -6,7 +6,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Strings from "@/constants/strings";
 import type { ISocialLinkItem } from "@/types";
-
 const socialLinks: ISocialLinkItem[] = [
   {
     name: Strings.github,
@@ -33,5 +32,4 @@ const socialLinks: ISocialLinkItem[] = [
     text: Strings.youtubeUsername,
   },
 ];
-
 export default socialLinks;

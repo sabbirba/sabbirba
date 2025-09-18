@@ -1,8 +1,6 @@
 import type { CoreComponentsProps } from "@/types";
-
 const Row = (props: Readonly<CoreComponentsProps>) => {
   const { children, classNames, onClick, id, elementRef } = props;
-
   return (
     <div
       className={`relative flex flex-row justify-start items-start transition duration-300 ease-in-out ${classNames}`}
@@ -14,5 +12,4 @@ const Row = (props: Readonly<CoreComponentsProps>) => {
     </div>
   );
 };
-
 export default Row;

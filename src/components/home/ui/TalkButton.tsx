@@ -1,10 +1,9 @@
 import Link from "next/link";
 import Strings from "@/constants/strings";
-
 const TalkButton = () => {
   return (
     <Link
-      className="app__outlined_btn min-w-[9rem]" //app__filled_btn
+      className="app__outlined_btn min-w-[9rem]"
       href={Strings.primaryEmailLink}
       target="_blank"
     >
@@ -12,5 +11,4 @@ const TalkButton = () => {
     </Link>
   );
 };
-
 export default TalkButton;

@@ -1,9 +1,11 @@
 import Image from "next/image";
-
 const GalleryImageView = ({
   src,
   alt,
-}: Readonly<{ src: string; alt?: string }>) => {
+}: Readonly<{
+  src: string;
+  alt?: string;
+}>) => {
   return (
     <Image
       src={src}
@@ -19,5 +21,4 @@ const GalleryImageView = ({
     />
   );
 };
-
 export default GalleryImageView;

@@ -2,7 +2,6 @@ import type { ISocialLinkItem } from "@/types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
-
 const SocialButton = ({ text, icon, url }: ISocialLinkItem) => {
   return (
     <Link
@@ -28,5 +27,4 @@ const SocialButton = ({ text, icon, url }: ISocialLinkItem) => {
     </Link>
   );
 };
-
 export default SocialButton;
