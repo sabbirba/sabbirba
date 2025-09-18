@@ -4,7 +4,7 @@ class Strings {
   static youtubeUsername = "Sabbirba10";
   static github = "GitHub";
   static githubLink = "https://www.github.com/sabbirba";
-  static githubUsername = "sabbirba10";
+  static githubUsername = "sabbirba";
   static linkedIn = "LinkedIn";
   static linkedInLink = "https://bd.linkedin.com/in/sabbir-bin-abbas-9320a6196";
   static linkedInUsername = "sabbir-bin-abbas";
@@ -12,8 +12,8 @@ class Strings {
   static instagramLink = "https://www.instagram.com/sabbir_bin_abbas";
   static instagramUsername = "sabbir_bin_abbas";
   static email = "Email";
-  static primaryEmailLink = "mailto:sabbirba10@gmail.com";
-  static primaryEmail = "sabbirba10@gmail.com";
+  static primaryEmailLink = "mailto:mail@sabbirba.com";
+  static primaryEmail = "mail@sabbirba.com";
   static fullName = "Sabbir Bin Abbas";
   static shortName = "sabbirba";
 }
