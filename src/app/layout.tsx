@@ -65,6 +65,8 @@ export const metadata: Metadata = {
   ],
   keywords: [
     "sabbir bin abbas",
+    "sabbirba.com",
+    "sabbirba.pages.dev",
     "sabbir",
     "sabbirba",
     "sabbir-bin-abbas",
@@ -89,6 +91,12 @@ const FloatingNavbar = dynamic(
   () => import("@/components/navbar/FloatingNavbar"),
 );
 const ScrollToTop = dynamic(() => import("@/components/common/ScrollToTop"));
+const UnregisterSW = dynamic(
+  () => import("@/components/common/UnregisterServiceWorker"),
+  {
+    ssr: false,
+  },
+);
 const isDebug = process.env.NODE_ENV === "development";
 const RootLayout = ({
   children,
@@ -100,6 +108,8 @@ const RootLayout = ({
       {isDebug ? null : <GoogleAnalytics />}
 
       <body className={isDebug ? "debug-screens" : ""}>
+        {}
+        <UnregisterSW />
         {isDebug ? <WebVitals /> : null}
         <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>

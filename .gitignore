@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+tmp-npm-cache
 
 # testing
 /coverage
@@ -29,3 +30,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+tmp-npm-cache/_update-notifier-last-checked
+tmp-npm-cache/_logs/2025-09-18T15_13_08_842Z-debug-0.log
+tmp-npm-cache/_logs/2025-09-18T15_13_17_567Z-debug-0.log

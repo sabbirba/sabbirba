@@ -36,7 +36,7 @@ const IconSkeleton = ({
             sizes="100%"
             loading="lazy"
             placeholder="blur"
-            blurDataURL="/images/placeholder.png"
+            blurDataURL="/skills/socket-io.png"
             className="h-4 w-4 aspect-square"
           />
         </IconContainer>
@@ -49,7 +49,7 @@ const IconSkeleton = ({
             sizes="100%"
             loading="lazy"
             placeholder="blur"
-            blurDataURL="/images/placeholder.png"
+            blurDataURL="/skills/socket-io.png"
             className="h-6 w-6 aspect-square"
           />
         </IconContainer>
@@ -62,7 +62,7 @@ const IconSkeleton = ({
             sizes="100%"
             loading="lazy"
             placeholder="blur"
-            blurDataURL="/images/placeholder.png"
+            blurDataURL="/skills/socket-io.png"
             className="h-8 w-8 aspect-square"
           />
         </IconContainer>
@@ -75,7 +75,7 @@ const IconSkeleton = ({
             sizes="100%"
             loading="lazy"
             placeholder="blur"
-            blurDataURL="/images/placeholder.png"
+            blurDataURL="/skills/socket-io.png"
             className="h-6 w-6 aspect-square"
           />
         </IconContainer>
@@ -88,7 +88,7 @@ const IconSkeleton = ({
             sizes="100%"
             loading="lazy"
             placeholder="blur"
-            blurDataURL="/images/placeholder.png"
+            blurDataURL="/skills/socket-io.png"
             className="h-4 w-4 aspect-square"
           />
         </IconContainer>

@@ -16,7 +16,7 @@ const GalleryImageView = ({
       priority={false}
       loading="lazy"
       placeholder="blur"
-      blurDataURL="/images/placeholder.png"
+      blurDataURL="/skills/socket-io.png"
       className="w-full h-auto max-h-[calc(100vh-8rem)] object-contain m-auto"
     />
   );
