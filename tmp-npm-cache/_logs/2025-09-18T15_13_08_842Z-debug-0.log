@@ -1,0 +1,37 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.6.0
+2 info using node@v22.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/sabbirba10/Documents/Code/sabbirba/.npmrc
+5 silly config load:file:/Users/sabbirba10/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm run formate
+8 verbose argv "run" "formate"
+9 verbose logfile logs-max:10 dir:/Users/sabbirba10/Documents/Code/sabbirba/tmp-npm-cache/_logs/2025-09-18T15_13_08_842Z-
+10 verbose logfile /Users/sabbirba10/Documents/Code/sabbirba/tmp-npm-cache/_logs/2025-09-18T15_13_08_842Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose stack Error: Missing script: "formate"
+12 verbose stack
+12 verbose stack Did you mean this?
+12 verbose stack   npm run format # run the "format" package script
+12 verbose stack
+12 verbose stack To see a list of scripts, run:
+12 verbose stack   npm run
+12 verbose stack     at #run (/usr/local/lib/node_modules/npm/lib/commands/run.js:115:13)
+12 verbose stack     at async RunScript.exec (/usr/local/lib/node_modules/npm/lib/commands/run.js:44:7)
+12 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:208:9)
+12 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:67:5)
+13 error Missing script: "formate"
+13 error
+13 error Did you mean this?
+13 error   npm run format # run the "format" package script
+13 error
+13 error To see a list of scripts, run:
+13 error   npm run
+14 verbose cwd /Users/sabbirba10/Documents/Code/sabbirba
+15 verbose os Darwin 25.0.0
+16 verbose node v22.16.0
+17 verbose npm  v11.6.0
+18 verbose exit 1
+19 verbose code 1
+20 error A complete log of this run can be found in: /Users/sabbirba10/Documents/Code/sabbirba/tmp-npm-cache/_logs/2025-09-18T15_13_08_842Z-debug-0.log

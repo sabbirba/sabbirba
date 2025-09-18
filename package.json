@@ -5,9 +5,10 @@
   "scripts": {
   "dev": "next dev -p 3000",
     "start": "next start",
-    "clean": "npx rimraf .next build out tmp-npm-cache && npm install && eslint . --ext .js,.jsx,.ts,.tsx --fix --ignore-pattern 'out/**' --ignore-pattern '.next/**' --ignore-pattern 'build/**' --ignore-pattern 'node_modules/**' --ignore-pattern 'next-env.d.ts' --ignore-pattern 'tmp-npm-cache' --ignore-pattern 'scripts/**' && node ./scripts/strip-comments-and-console.js && prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md,mdx}\"",
-  "build": "node ./scripts/strip-comments-and-console.js && prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md,mdx}\" && npm run clean && npm run format:check && next build",
-  "export": "node ./scripts/strip-comments-and-console.js && prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md,mdx}\" && next build",
+    "clean": "npx rimraf .next build out tmp-npm-cache && eslint . --ext .js,.jsx,.ts,.tsx --fix --ignore-pattern 'out/**' --ignore-pattern '.next/**' --ignore-pattern 'build/**' --ignore-pattern 'node_modules/**' --ignore-pattern 'next-env.d.ts' --ignore-pattern 'tmp-npm-cache' --ignore-pattern 'scripts/**' && node ./scripts/strip-comments-and-console.js && prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md,mdx}\"",
+    "build": "next build",
+    "build:full": "npm run clean && npm run format:check && next build",
+  "export": "npm run clean && npm run format:check && next build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --ignore-pattern 'out/**' --ignore-pattern '.next/**' --ignore-pattern 'build/**' --ignore-pattern 'node_modules/**' --ignore-pattern 'next-env.d.ts' --ignore-pattern 'scripts/**'",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix --ignore-pattern 'out/**' --ignore-pattern '.next/**' --ignore-pattern 'build/**' --ignore-pattern 'node_modules/**' --ignore-pattern 'next-env.d.ts' --ignore-pattern 'scripts/**'",
     "lint:scripts": "eslint scripts --env node --ext .js,.cjs --rule '{\"@typescript-eslint/no-require-imports\": 0}' || true",
@@ -21,7 +22,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@sentry/nextjs": "^8.55.0",
+    
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",

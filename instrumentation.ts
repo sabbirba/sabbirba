@@ -1,9 +1,6 @@
 export async function register() {
-  if (process.env.NEXT_RUNTIME === "nodejs") {
-    await import("./sentry.server.config");
-  }
-
-  if (process.env.NEXT_RUNTIME === "edge") {
-    await import("./sentry.edge.config");
-  }
+  // instrumentation is disabled for static export builds.
+  // If you want to enable runtime instrumentation, restore the dynamic
+  // imports and add @sentry/nextjs back to package.json.
+  return;
 }
