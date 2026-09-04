@@ -4,7 +4,7 @@ import {
   faYoutube,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import Strings from "@/constants/strings";
+import { Strings } from "@/constants";
 import type { ISocialLinkItem } from "@/types";
 const socialLinks: ISocialLinkItem[] = [
   {

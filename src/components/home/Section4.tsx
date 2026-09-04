@@ -1,7 +1,9 @@
-import ConstrainedBox from "@/components/core/constrained-box";
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import GridBox from "@/components/core/GridBox";
-import SectionTitle from "@/components/common/SectionTitle";
+import {
+  ConstrainedBox,
+  ResponsiveBox,
+  GridBox,
+  SectionTitle,
+} from "@/components/core";
 import SkillItem from "./ui/SkillItem";
 import skills from "@/data/skills";
 const HomeSection4 = ({ id }: { id: string }) => {

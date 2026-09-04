@@ -1,11 +1,11 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "@/utils/cn";
+import { Row } from "@/components/core";
+import { cn } from "@/constants";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { INavItem } from "@/types";
-import Row from "@/components/core/Row";
 const FloatingNavbar = ({
   navItems,
   className,

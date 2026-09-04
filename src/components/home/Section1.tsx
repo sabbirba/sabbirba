@@ -1,12 +1,8 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Column from "@/components/core/Column";
-import ConstrainedBox from "@/components/core/constrained-box";
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import Row from "@/components/core/Row";
+import { Column, ConstrainedBox, ResponsiveBox, Row } from "@/components/core";
 import { FlipWords } from "@/components/common/FlipWords";
 import socialLinks from "@/data/socialLinks";
-import ResumeButton from "./ui/ResumeButton";
 const HomeSection1 = ({
   id,
 }: Readonly<{
@@ -36,7 +32,13 @@ const HomeSection1 = ({
             and sharing knowledge with the community.
           </p>
           <div className="mt-12 lg:mt-16 flex flex-col md:flex-row gap-4 items-center justify-center">
-            <ResumeButton />
+            <Link
+              className="app__outlined_btn min-w-[4rem]"
+              href="/"
+              target="_blank"
+            >
+              Resume
+            </Link>
           </div>
         </Column>
         <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">

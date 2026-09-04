@@ -1,4 +1,4 @@
-import LocalConfig from "@/constants/config";
+import { LocalConfig } from "@/constants";
 import Script from "next/script";
 const GoogleAnalytics = () => (
   <>

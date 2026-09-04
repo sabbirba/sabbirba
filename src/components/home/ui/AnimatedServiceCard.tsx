@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { cn } from "@/utils/cn";
+import { cn } from "@/constants";
 import { IServiceItem } from "@/types";
 import Image from "next/image";
 export function AnimatedServiceCard({
@@ -137,7 +137,7 @@ const Sparkles = () => {
     </div>
   );
 };
-export const Card = ({
+const Card = ({
   className,
   children,
 }: {
@@ -157,7 +157,7 @@ export const Card = ({
     </div>
   );
 };
-export const CardTitle = ({
+const CardTitle = ({
   children,
   className,
 }: {
@@ -175,7 +175,7 @@ export const CardTitle = ({
     </h3>
   );
 };
-export const CardDescription = ({
+const CardDescription = ({
   children,
   className,
 }: {
@@ -193,7 +193,7 @@ export const CardDescription = ({
     </p>
   );
 };
-export const CardSkeletonContainer = ({
+const CardSkeletonContainer = ({
   className,
   children,
   showGradient = true,

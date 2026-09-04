@@ -1,6 +1,4 @@
-import ConstrainedBox from "@/components/core/constrained-box";
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import SectionTitle from "@/components/common/SectionTitle";
+import { ConstrainedBox, ResponsiveBox, SectionTitle } from "@/components/core";
 import { Timeline } from "@/components/common/timeline";
 import ExperienceItem from "./ui/ExperienceItem";
 import experiences from "@/data/experiences";

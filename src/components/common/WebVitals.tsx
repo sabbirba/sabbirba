@@ -1,7 +1,0 @@
-"use client";
-
-import { useReportWebVitals } from "next/web-vitals";
-export default function WebVitals() {
-  useReportWebVitals(() => {});
-  return null;
-}

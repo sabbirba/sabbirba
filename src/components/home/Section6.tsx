@@ -1,11 +1,14 @@
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import ConstrainedBox from "@/components/core/constrained-box";
-import GridBox from "@/components/core/GridBox";
-import Column from "@/components/core/Column";
-import SectionTitle from "@/components/common/SectionTitle";
+import Link from "next/link";
+import {
+  Column,
+  ConstrainedBox,
+  GridBox,
+  ResponsiveBox,
+  SectionTitle,
+} from "@/components/core";
+import { Strings } from "@/constants";
 import SocialButton from "./ui/SocialButton";
 import socialLinks from "@/data/socialLinks";
-import TalkButton from "./ui/TalkButton";
 const HomeSection6 = ({ id }: { id: string }) => {
   return (
     <ResponsiveBox
@@ -35,7 +38,13 @@ const HomeSection6 = ({ id }: { id: string }) => {
             freelancing.
           </p>
           <div className="flex items-center justify-center mt-8 w-full">
-            <TalkButton />
+            <Link
+              className="app__outlined_btn min-w-[9rem]"
+              href={Strings.primaryEmailLink}
+              target="_blank"
+            >
+              Let&apos;s Talk
+            </Link>
           </div>
         </Column>
       </ConstrainedBox>

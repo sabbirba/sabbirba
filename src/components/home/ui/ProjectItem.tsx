@@ -7,9 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Link from "next/link";
-import Column from "@/components/core/Column";
-import Row from "@/components/core/Row";
-import CardBox from "@/components/core/CardBox";
+import { CardBox, Column, Row } from "@/components/core";
 const ProjectItem = ({ project }: { project: IProjectItem }) => {
   return (
     <CardBox classNames="min-w-[calc(100%-2rem)] sm:min-w-[25rem] md:min-w-[28rem] aspect-[3/5] max-h-[30rem] p-4 gap-8 items-center justify-between rounded-[var(--borderRadius)] border border-[rgba(255,255,255,0.10)] dark:bg-[var(--primaryColor5)] bg-[var(--primaryColor5)] shadow-[2px_4px_16px_0px_rgba(100,100,100,0.06)_inset] group slide_in">

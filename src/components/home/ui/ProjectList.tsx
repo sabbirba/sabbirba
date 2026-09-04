@@ -2,9 +2,8 @@
 
 import { createRef, useState, useEffect } from "react";
 import { IProjectItem } from "@/types";
-import Row from "@/components/core/Row";
+import { Column, Row } from "@/components/core";
 import ProjectItem from "./ProjectItem";
-import Column from "@/components/core/Column";
 const ProjectList = ({
   projects,
 }: Readonly<{

@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-const PageBox = dynamic(() => import("@/components/core/PageBox"));
+import { PageBox } from "@/components/core";
 const HomeSection1 = dynamic(() => import("@/components/home/Section1"));
 const HomeSection2 = dynamic(() => import("@/components/home/Section2"));
 const HomeSection3 = dynamic(() => import("@/components/home/Section3"));

@@ -1,12 +1,6 @@
 import { IconDefinition, IconProp } from "@fortawesome/fontawesome-svg-core";
 import type { MouseEventHandler, ReactNode, RefObject } from "react";
-export interface INavMenuItem {
-  id: string;
-  title: string;
-  path: string;
-  section: string;
-  submenu?: INavMenuItem[];
-}
+
 export interface INavItem {
   name: string;
   link: string;
@@ -61,7 +55,7 @@ export enum SkillLevel {
   Intermediate,
   Beginner,
 }
-export interface ISkillItem {
+interface ISkillItem {
   title: string;
   level?: SkillLevel;
   icon?: string;
@@ -72,40 +66,14 @@ export interface ISocialLinkItem {
   text: string;
   name?: string;
 }
-export interface MenuItemProps {
-  items: INavMenuItem;
-  depthLevel: number;
-  mobileNav: boolean;
-  handleCloseMobileMenu: () => void;
-  current?: string;
-}
-export interface DropdownMenuProps
-  extends Omit<MenuItemProps, "items" | "current"> {
-  submenus: INavMenuItem[];
-  dropdown: boolean;
-}
-export interface ButtonComponentProps {
-  label: string;
-  onClick: MouseEventHandler<HTMLButtonElement>;
-  classNames?: string;
-  name?: string;
-}
 export interface CoreComponentsProps {
   children: ReactNode;
   classNames?: string;
   onClick?: MouseEventHandler<HTMLDivElement>;
   id?: string;
-  elementRef?: RefObject<HTMLDivElement | null>;
+  elementRef?: RefObject<HTMLDivElement>;
 }
-export interface ViewportProps {
-  root?: null | undefined;
-  rootMargin?: string | undefined;
-  threshold?: number | undefined;
-}
-export interface ShootingStarProps {
-  vw: number;
-  vh: number;
-}
+
 export interface TimelineEntry {
   title: string;
   content: React.ReactNode;

@@ -1,5 +1,5 @@
-import { BulletedTextProps } from "@/types";
-import { cn } from "@/utils/cn";
+import type { BulletedTextProps } from "@/types";
+import { cn } from "@/constants";
 const BulletedText = ({
   children,
   iconSize,

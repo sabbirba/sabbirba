@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "@/utils/cn";
+import { cn } from "@/constants";
 import { AnimatedServiceCard } from "../home/ui/AnimatedServiceCard";
 export const HoverLayoutGrid = ({
   cards,

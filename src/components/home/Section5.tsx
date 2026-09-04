@@ -1,6 +1,4 @@
-import ConstrainedBox from "@/components/core/constrained-box";
-import ResponsiveBox from "@/components/core/ResponsiveBox";
-import SectionTitle from "@/components/common/SectionTitle";
+import { ConstrainedBox, ResponsiveBox, SectionTitle } from "@/components/core";
 import ProjectList from "./ui/ProjectList";
 import projects from "@/data/projects";
 const HomeSection5 = ({ id }: { id: string }) => {

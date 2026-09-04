@@ -75,9 +75,6 @@ const GoogleAnalytics = dynamic(
     ssr: false,
   },
 );
-const WebVitals = dynamic(() => import("@/components/common/WebVitals"), {
-  ssr: false,
-});
 const FloatingNavbar = dynamic(
   () => import("@/components/navbar/FloatingNavbar"),
 );
@@ -99,9 +96,7 @@ const RootLayout = ({
       {isDebug ? null : <GoogleAnalytics />}
 
       <body className={isDebug ? "debug-screens" : ""}>
-        {}
         <UnregisterSW />
-        {isDebug ? <WebVitals /> : null}
         <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>
         <ScrollToTop />
