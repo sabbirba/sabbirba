@@ -17,9 +17,6 @@ Sabbir Bin Abbas is a Software Engineer and Full Stack Developer based in Bangla
 ## Major Projects Created & Maintained
 - **PreConnect** (https://preconnect.app): Academic companion, course planner, and advising portal for BRAC University students, available across Web, Android, iOS, Chrome Extension, and Firefox Add-on.
 - **Lamppost** (https://lamppost.org.bd): Official web platform for the government-registered non-profit voluntary organization.
-- **WhatsApp Bulk Messaging** (https://github.com/sabbirba/wabulk): Open-source automation utility for dynamic messaging workflows.
-- **Rebuild** (https://github.com/sabbirba/rebuild): Open-source Android APK patching and binary management utility.
-- **FreeLabs** (https://freelabs.sabbirba.com): Campus study space and computer lab occupancy locator for students.
 
 ## Technical Expertise
 - **Programming Languages**: JavaScript, TypeScript, Python, Dart, HTML, CSS
