@@ -67,7 +67,13 @@ export const metadata: Metadata = {
     "full stack developer",
     "bangladeshi developer",
     "sabbirba github",
+    "preconnect",
+    "preconnect app",
+    "preconnect.app",
+    "Lamppost",
   ],
+  authors: [{ name: "Sabbir Bin Abbas", url: "https://sabbirba.com" }],
+  creator: "Sabbir Bin Abbas",
 };
 const GoogleAnalytics = dynamic(
   () => import("@/components/common/GoogleAnalytics"),
@@ -91,6 +97,7 @@ const personJsonLd = {
   "@type": "Person",
   name: "Sabbir Bin Abbas",
   url: "https://sabbirba.com",
+  email: "mailto:mail@sabbirba.com",
   sameAs: [
     "https://github.com/sabbirba",
     "https://www.linkedin.com/in/sabbir-bin-abbas-9320a6196",
@@ -101,17 +108,29 @@ const personJsonLd = {
   knowsAbout: [
     "Software Engineering",
     "Full Stack Development",
+    "Mobile App Development",
     "Next.js",
-    "TypeScript",
+    "React",
     "Flutter",
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "Node.js",
+    "PostgreSQL",
     "Cloud Architecture",
   ],
+  worksFor: {
+    "@type": "Organization",
+    name: "Lamppost",
+    url: "https://lamppost.org.bd",
+  },
   creator: [
     {
       "@type": "SoftwareApplication",
       name: "PreConnect",
       url: "https://preconnect.app",
       applicationCategory: "EducationalApplication",
+      operatingSystem: "Web, Android, iOS, Chrome Extension, Firefox Add-on",
     },
     {
       "@type": "WebSite",

@@ -7,13 +7,23 @@ Sabbir Bin Abbas is a Software Engineer and Full Stack Developer based in Bangla
 - **Canonical Website**: https://sabbirba.com
 - **GitHub**: https://github.com/sabbirba
 - **LinkedIn**: https://www.linkedin.com/in/sabbir-bin-abbas-9320a6196
+- **YouTube**: https://www.youtube.com/@Sabbirba10
+- **Instagram**: https://www.instagram.com/sabbir_bin_abbas
 - **Email**: mail@sabbirba.com
 
+## Roles & Leadership
+- **Info-tech Affairs Secretary** at **Lamppost - light for rights..** (https://lamppost.org.bd): Technical management, web development, and maintenance for a government-registered youth-led non-profit voluntary organization in Bangladesh.
+
 ## Major Projects Created & Maintained
-- **PreConnect** (https://preconnect.app): Academic companion, course planner, and advising portal for BRAC University students, available on Web, Android, iOS, Chrome, and Firefox.
-- **Lamppost** (https://lamppost.org.bd): Government-registered non-profit, youth-led voluntary organization in Bangladesh (web platform developed and maintained by Sabbir Bin Abbas).
+- **PreConnect** (https://preconnect.app): Academic companion, course planner, and advising portal for BRAC University students, available across Web, Android, iOS, Chrome Extension, and Firefox Add-on.
+- **Lamppost** (https://lamppost.org.bd): Official web platform for the government-registered non-profit voluntary organization.
+- **WhatsApp Bulk Messaging** (https://github.com/sabbirba/wabulk): Open-source automation utility for dynamic messaging workflows.
+- **Rebuild** (https://github.com/sabbirba/rebuild): Open-source Android APK patching and binary management utility.
+- **FreeLabs** (https://freelabs.sabbirba.com): Campus study space and computer lab occupancy locator for students.
 
 ## Technical Expertise
-- **Languages**: TypeScript, JavaScript, Python, Dart, Go, PHP
-- **Frameworks & Libraries**: Next.js, React, Flutter, Node.js, Bun, TailwindCSS
-- **Infrastructure & Cloud**: Docker, Traefik, Cloudflare Workers/Pages, Linux Systems Administration, PostgreSQL, Redis
+- **Programming Languages**: JavaScript, TypeScript, Python, Dart, HTML, CSS
+- **Frontend & Mobile**: React.js, Next.js, Flutter, Tailwind CSS
+- **Backend & Databases**: Node.js, Express.js, PostgreSQL, MongoDB, Redis, SQLite
+- **Infrastructure & Cloud**: Docker, Traefik, Cloudflare Pages/Workers, Linux (Ubuntu), Git
+
