@@ -25,7 +25,7 @@ export class Strings {
   static githubLink = "https://www.github.com/sabbirba";
   static githubUsername = "sabbirba";
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://bd.linkedin.com/in/sabbir-bin-abbas-9320a6196";
+  static linkedInLink = "https://www.linkedin.com/in/sabbir-bin-abbas-9320a6196";
   static linkedInUsername = "sabbir-bin-abbas";
   static instagram = "Instagram";
   static instagramLink = "https://www.instagram.com/sabbir_bin_abbas";

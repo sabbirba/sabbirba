@@ -1,0 +1,19 @@
+# Sabbir Bin Abbas — Software Engineer & Full Stack Developer
+
+Sabbir Bin Abbas is a Software Engineer and Full Stack Developer based in Bangladesh, specializing in scalable web systems, mobile applications, and high-performance cloud infrastructure.
+
+## Core Identity
+- **Full Name**: Sabbir Bin Abbas
+- **Canonical Website**: https://sabbirba.com
+- **GitHub**: https://github.com/sabbirba
+- **LinkedIn**: https://www.linkedin.com/in/sabbir-bin-abbas-9320a6196
+- **Email**: mail@sabbirba.com
+
+## Major Projects Created & Maintained
+- **PreConnect** (https://preconnect.app): Academic companion, course planner, and advising portal for BRAC University students, available on Web, Android, iOS, Chrome, and Firefox.
+- **Lamppost** (https://lamppost.org.bd): Government-registered non-profit, youth-led voluntary organization in Bangladesh (web platform developed and maintained by Sabbir Bin Abbas).
+
+## Technical Expertise
+- **Languages**: TypeScript, JavaScript, Python, Dart, Go, PHP
+- **Frameworks & Libraries**: Next.js, React, Flutter, Node.js, Bun, TailwindCSS
+- **Infrastructure & Cloud**: Docker, Traefik, Cloudflare Workers/Pages, Linux Systems Administration, PostgreSQL, Redis

@@ -86,6 +86,42 @@ const UnregisterSW = dynamic(
   },
 );
 const isDebug = process.env.NODE_ENV === "development";
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Sabbir Bin Abbas",
+  url: "https://sabbirba.com",
+  sameAs: [
+    "https://github.com/sabbirba",
+    "https://www.linkedin.com/in/sabbir-bin-abbas-9320a6196",
+    "https://www.instagram.com/sabbir_bin_abbas",
+    "https://www.youtube.com/@Sabbirba10",
+  ],
+  jobTitle: "Software Engineer",
+  knowsAbout: [
+    "Software Engineering",
+    "Full Stack Development",
+    "Next.js",
+    "TypeScript",
+    "Flutter",
+    "Cloud Architecture",
+  ],
+  creator: [
+    {
+      "@type": "SoftwareApplication",
+      name: "PreConnect",
+      url: "https://preconnect.app",
+      applicationCategory: "EducationalApplication",
+    },
+    {
+      "@type": "WebSite",
+      name: "Lamppost",
+      url: "https://lamppost.org.bd",
+      description: "Government-registered non-profit, youth-led voluntary organization.",
+    },
+  ],
+};
+
 const RootLayout = ({
   children,
 }: Readonly<{
@@ -96,6 +132,10 @@ const RootLayout = ({
       {isDebug ? null : <GoogleAnalytics />}
 
       <body className={isDebug ? "debug-screens" : ""}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         <UnregisterSW />
         <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>
