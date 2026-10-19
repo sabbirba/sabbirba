@@ -136,7 +136,8 @@ const personJsonLd = {
       "@type": "WebSite",
       name: "Lamppost",
       url: "https://lamppost.org.bd",
-      description: "Government-registered non-profit, youth-led voluntary organization.",
+      description:
+        "Government-registered non-profit, youth-led voluntary organization.",
     },
   ],
 };
