@@ -15,15 +15,15 @@ const HomeSection1 = ({
     >
       <ConstrainedBox classNames="px-4 py-8 pt-16 z-20 items-center justify-center">
         <Column classNames="w-full items-center justify-center">
-          <div className="inline-flex items-center">
-            <p className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
+          <h1 className="inline-flex items-center">
+            <span className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--textColor)] text-[var(--textColor)] font-bold text-center">
               Hi there, I am
-            </p>
+            </span>
             <FlipWords
               words={["Sabbir Bin Abbas", "@sabbirba"]}
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
-          </div>
+          </h1>
           <p className="text-xl font-bold mt-4 dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
             Passionate Full Stack Developer
           </p>

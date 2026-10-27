@@ -22,10 +22,21 @@ const poppins = Poppins({
     "Droid Sans",
   ],
 });
+const description =
+  "Sabbir Bin Abbas is a proficient Software Engineer and Full Stack Developer from Bangladesh, skilled in front-end and back-end development using modern tech stacks.";
 export const metadata: Metadata = {
-  title: "Sabbir Bin Abbas",
-  description:
-    "Sabbir Bin Abbas is a proficient Software Engineer and Full Stack Developer from Bangladesh, skilled in front-end and back-end development using modern tech stacks.",
+  metadataBase: new URL("https://sabbirba.com"),
+  title: "Sabbir Bin Abbas – Software Engineer & Full Stack Developer",
+  description,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "profile",
+    url: "https://sabbirba.com",
+    siteName: "Sabbir Bin Abbas",
+    title: "Sabbir Bin Abbas – Software Engineer & Full Stack Developer",
+    description,
+  },
+  twitter: { card: "summary" },
   robots: {
     index: true,
     follow: true,
