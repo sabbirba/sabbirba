@@ -85,6 +85,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Sabbir Bin Abbas", url: "https://sabbirba.com" }],
   creator: "Sabbir Bin Abbas",
+  other: { "google-adsense-account": "ca-pub-9764366494635767" },
 };
 const GoogleAnalytics = dynamic(
   () => import("@/components/common/GoogleAnalytics"),
@@ -160,6 +161,13 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en" className={poppins.className}>
+      <head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9764366494635767"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
       {isDebug ? null : <GoogleAnalytics />}
 
       <body className={isDebug ? "debug-screens" : ""}>
